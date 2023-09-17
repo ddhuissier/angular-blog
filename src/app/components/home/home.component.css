@@ -1,0 +1,9 @@
+
+.panel-home{
+  /* background-image: url('./../../../assets/images/bg-angular2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: azure;
+  width: 100%;
+  height: auto;
+}

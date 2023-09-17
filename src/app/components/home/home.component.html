@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<div class="panel-home">
+  <div *ngIf="!isAuthenticated">
+    <app-login></app-login>
+  </div>
+  <div *ngIf="isAuthenticated">
+    <app-post></app-post>
+  </div>
+</div>
+<app-footer></app-footer>
